@@ -1,0 +1,785 @@
+2014/06/10 17:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/10 17:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/10 17:42:47 [warning] [application] Failed to set unsafe attribute "pic" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (79)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/10 17:42:59 [warning] [application] Failed to set unsafe attribute "pic" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (79)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/10 17:46:49 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:49:34 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:49:34 [error] [php] move_uploaded_file(documents/SQL_-_konspekt.pdf): failed to open stream: No such file or directory (/home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CUploadedFile.php:198)
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php(59): DocumentsController->initSave()
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): DocumentsController->actionAdd()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): DocumentsController->runAction()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): DocumentsController->filterAccessControl()
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): DocumentsController->runActionWithFilters()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): DocumentsController->run()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/documents/add
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (37)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:49:52 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:50:16 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 17:50:37 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (71)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/10 18:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Management
+---
+2014/06/11 10:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/11 10:50:41 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.0" is not defined.' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWidgetFactory.php(161): CComponent->__set('0', 'dateCreate')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(MenuController), 'bootstrap.widge...', Array)
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/views/menu/index.php(22): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(126): require('/home/php/publi...')
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/php/publi...', Array, true)
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(869): CBaseController->renderFile('/home/php/publi...', Array, true)
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/MenuController.php(16): CController->render('index', Array)
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): MenuController->actionIndex()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('')
+#19 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/menu')
+#20 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/admin/menu
+HTTP_REFERER=http://chi.com/index.php/admin/testmonials
+---
+2014/06/11 11:42:23 [warning] [application] Failed to set unsafe attribute "tags" of "Projects".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (25)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (136)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:02 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:02 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:20 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:20 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/11 11:52:29 [warning] [application] Failed to set unsafe attribute "pic" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (78)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/index.php/admin/successstories/update/id/2
+---
+2014/06/11 11:52:38 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:52:38 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:12 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:12 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:14 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:14 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:14 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:14 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:15 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:15 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:16 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:16 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:16 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:16 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (127)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:53:26 [warning] [application] Failed to set unsafe attribute "pic" of "Successstories".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php (78)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:56:19 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (71)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 11:56:33 [warning] [application] Failed to set unsafe attribute "file" of "Documents".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/DocumentsController.php (71)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 12:08:28 [warning] [application] Failed to set unsafe attribute "tags" of "Projects".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (25)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (87)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 12:08:38 [warning] [application] Failed to set unsafe attribute "tags" of "Projects".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (25)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (87)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 12:08:55 [warning] [application] Failed to set unsafe attribute "tags" of "Projects".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (25)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php (136)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 12:09:49 [warning] [application] Failed to set unsafe attribute "dateCreate" of "Staticpages".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/StaticpagesController.php (13)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/11 12:09:49 [warning] [application] Failed to set unsafe attribute "dateUpdate" of "Staticpages".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/StaticpagesController.php (13)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 13:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/3/images/stories/1401100388.8059wolf_5.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/3/images/stories/1401100388.8059wolf_5.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/06/13 13:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/2/images/stories/1401100369.80361317028314_dale.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/2/images/stories/1401100369.80361317028314_dale.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/06/13 13:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/stories/14/images/stories/1401454960.6517516.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/stories/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/stories/14/images/stories/1401454960.6517516.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/06/13 14:56:49 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:57:00 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:57:00 [error] [php] mkdir(): No such file or directory (/home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php:27)
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): SlidesController->actionAdd()
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): SlidesController->runAction()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): SlidesController->filterAccessControl()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): SlidesController->runActionWithFilters()
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): SlidesController->run()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/slides/add
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (27)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:57:34 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:57:34 [error] [php] mkdir(): Permission denied (/home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php:27)
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): SlidesController->actionAdd()
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): SlidesController->runAction()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): SlidesController->filterAccessControl()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): SlidesController->runActionWithFilters()
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): SlidesController->run()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/slides/add
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (27)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:58:01 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:58:13 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 14:59:09 [error] [php] rmdir(slides/2): No such file or directory (/home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php:88)
+Stack trace:
+#0 unknown(0): SlidesController->actionDelete()
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): SlidesController->runAction()
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): SlidesController->filterAccessControl()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): SlidesController->runActionWithFilters()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): SlidesController->run()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/slides/delete/id/2
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (88)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (60)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 15:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "change".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('change')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('change')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/tech/chan...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/tech/change
+HTTP_REFERER=http://chi.com/index.php/admin/tech
+---
+2014/06/13 15:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "changefollowing".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('changefollowing')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('changefollowing')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/tech/chan...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/tech/changefollowing
+HTTP_REFERER=http://chi.com/index.php/admin/tech
+---
+2014/06/13 15:11:35 [error] [php] Undefined variable: model (/home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/views/tech/orderposition.php:16)
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(869): TechController->renderFile()
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(782): TechController->renderPartial()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/TechController.php(22): TechController->render()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): TechController->actionchangefollowing()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): TechController->runAction()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): TechController->filterAccessControl()
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): TechController->runActionWithFilters()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): TechController->run()
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/tech/changefollowing
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/views/tech/orderposition.php (16)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/TechController.php (22)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 15:31:48 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 15:31:58 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 15:32:06 [warning] [application] Failed to set unsafe attribute "img" of "Slides".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SlidesController.php (42)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 16:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/06/13 16:22:45 [error] [exception.CException] exception 'CException' with message 'ProjectsController cannot find the requested view "orderposition".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:878
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(782): CController->renderPartial('orderposition', Array, true)
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ProjectsController.php(26): CController->render('orderposition', Array)
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): ProjectsController->actionchangefollowing()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('changefollowing')
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/projects/...')
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/projects/changefollowing
+HTTP_REFERER=http://chi.com/index.php/admin/projects
+---
+2014/06/13 16:29:23 [error] [exception.CException] exception 'CException' with message 'SuccessstoriesController cannot find the requested view "orderposition".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:878
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(782): CController->renderPartial('orderposition', Array, true)
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php(21): CController->render('orderposition', Array)
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): SuccessstoriesController->actionchangefollowing()
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('changefollowing')
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/successst...')
+#15 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/admin/successstories/changefollowing
+HTTP_REFERER=http://chi.com/index.php/admin/successstories
+---
+2014/06/13 16:30:07 [error] [exception.CException] exception 'CException' with message 'Property "Successstories.title" is not defined.' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('title')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/views/successstories/orderposition.php(18): CActiveRecord->__get('title')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(126): require('/home/php/publi...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/php/publi...', Array, true)
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(869): CBaseController->renderFile('/home/php/publi...', Array, true)
+#5 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(782): CController->renderPartial('orderposition', Array, true)
+#6 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/SuccessstoriesController.php(21): CController->render('orderposition', Array)
+#7 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/actions/CInlineAction.php(49): SuccessstoriesController->actionchangefollowing()
+#8 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#12 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('changefollowing')
+#19 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/successst...')
+#20 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/admin/successstories/changefollowing
+HTTP_REFERER=http://chi.com/index.php/admin/successstories
+---
+2014/06/13 17:29:35 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (38)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 17:29:39 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (38)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/13 17:29:50 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (19)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (50)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/16 10:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/06/16 10:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/06/16 10:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/16 10:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/16 10:27:05 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (40)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/16 10:27:50 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (40)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/16 10:32:16 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (40)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (59)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/16 10:32:18 [warning] [application] Failed to set unsafe attribute "logo" of "Clients".
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (40)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/modules/admin/controllers/ClientsController.php (71)
+in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php (13)
+2014/06/17 10:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 10:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/17 10:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/07/01 10:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/01 10:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/01 11:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/07/04 14:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/14 11:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664219.7851516.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664219.7851516.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/14 11:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664185.6929397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664185.6929397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/14 11:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402662804.694397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402662804.694397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/14 11:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/14 11:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/21 14:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664219.7851516.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664219.7851516.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/21 14:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664185.6929397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664185.6929397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/21 14:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402662804.694397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402662804.694397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/21 14:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/21 14:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/21 14:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php:483
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('staticpages/ima...')
+#3 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/staticpages/images/backgrounds/bg-body1.jpg
+HTTP_REFERER=http://chi.com/staticpages/Success_Stories
+---
+2014/07/21 14:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664219.7851516.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664219.7851516.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/21 14:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402662804.694397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402662804.694397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/07/21 14:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664185.6929397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664185.6929397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/09/23 14:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664185.6929397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664185.6929397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/09/23 14:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402662804.694397.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402662804.694397.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/09/23 14:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/clients/1402664219.7851516.jpg".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/clients/...')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/clients/1402664219.7851516.jpg
+HTTP_REFERER=http://chi.com/
+---
+2014/09/23 14:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/09/23 14:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/09/23 14:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/protected/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/php/public_html/!!__CHI__!!/chi2/CHI_corporate_website/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

@@ -1,0 +1,5 @@
+.portfolio .item:hover .holder{display: block;}
+.portfolio .item .holder{
+    display: none;
+    background: url(../images/bg-hover.png);
+}

@@ -1,0 +1,48 @@
+/* hide original element */
+.jcf-hidden {
+	display: block !important;
+	position: absolute !important;
+	left: -9999px !important; /* change to right: -9999px on RTL sites */
+}
+/* custom checkbox styles */
+.chk-area {
+	border: 1px solid #b4b4b4;
+	margin: 0 7px 0 0;
+	float: left;
+	width: 15px;
+	height: 15px;
+}
+.chk-area.chk-checked span{
+	display: block;
+	background: #000;
+	width: 9px;
+	height: 9px;
+	margin: 3px;
+}
+.chk-focus {
+	border-color: #b4b4b4;
+}
+.chk-disabled {
+	background: #eee;
+}
+.jcf-label-disabled {
+	color: #ccc;
+}
+/* custom radio styles */
+.rad-area {
+	border: 1px solid #777;
+	border-radius: 10px;
+	margin: 0 10px 0 0;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.rad-checked {
+	background: #aaf;
+}
+.rad-focus {
+	border-color: #f00;
+}
+.rad-disabled {
+	background: #eee;
+}

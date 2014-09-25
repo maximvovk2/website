@@ -1,0 +1,26 @@
+#bg{display: none;}
+body{
+    background: url(../images/bg-body.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.technology-section .frame{width: 2304px;}
+.technology-section .item header .btn{
+	opacity: 1;
+}
+.technology-section .item:hover header .btn{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+#ascrail2000-hr{
+	margin: 263px 0 0;
+}
+
+@media only screen and (orientation : landscape) {
+	body{
+	    background-size: auto auto;
+	}
+}

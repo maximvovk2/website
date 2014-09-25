@@ -1,0 +1,299 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:10002; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{outline:0;}
+    #cboxContent{margin-top:20px;background:#fff;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:11px solid #000; background:#fff;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxLoadingGraphic{background:url(/images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+        
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(/images/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(/images/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(/images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+       /*  #cboxClose:hover{background-position:bottom center;} */
+/* popup styles */
+.popup-hide{
+    height: 0;
+    display: none;
+    overflow: hidden;
+}
+#colorbox, #cboxOverlay{
+    z-index:10002;
+    overflow: visible;
+}
+#cboxWrapper{
+    z-index: 10003;
+    overflow: visible;
+}
+#colorbox{
+   /*  -moz-box-shadow: 0 0 250px rgba(255,255,255,.53);
+   -webkit-box-shadow: 0 0 250px rgba(255,255,255,.53);
+   box-shadow: 0 0 250px rgba(255,255,255,.53); */
+    overflow: visible !important;
+    background: #fff;
+}
+#cboxContent{
+    margin: 0;
+    padding: 40px 27px;
+}
+#cboxLoadedContent{
+    border: none;
+    overflow: visible !important;
+}
+#cboxClose{
+    background: url(../images/tmp/close_popup.png) no-repeat;
+    width: 24px;
+    height: 25px;
+    position: absolute;
+    right: 9px;
+    top: 11px;
+}
+#colorbox h1{
+    color: #000;
+    margin: 0 0 20px;
+}
+#colorbox h1:after{background: #000;}
+#inline-content{
+    width: 388px;
+    border: 1px solid #848484;
+    background: #fff;
+    position: relative;
+    padding: 0 50px;
+    color: #000;
+    /* font-size: 17px;
+    line-height: 19px; */
+}
+#inline-content a{
+    text-decoration: underline;
+    color: #000;
+}
+#inline-content a:hover{text-decoration: none;}
+#inline-content .alert{
+    display: block;
+    margin: -20px 0 10px;
+}
+#inline-content form .row-holder{padding: 0 0 40px;}
+#inline-content form .row-holder .form-row:first-child{padding: 0;}
+#inline-content form .form-row{padding: 20px 0 0;}
+#inline-content form .form-row:first-child{padding: 0;}
+#inline-content form .form-row:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#inline-content form label{
+    cursor: default;
+    display: block;
+    padding: 0 0 8px;
+}
+#inline-content form input[type="text"],
+#inline-content form input[type="email"],
+#inline-content form input[type="tel"],
+#inline-content form input[type="password"],
+#inline-content form textarea{
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    height: 33px;
+    font-size: 17px;
+    line-height: 19px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #b3b3b3;
+}
+#inline-content form textarea{
+    height: 140px;
+    min-height: 140px;
+    overflow: auto;
+    resize:none;
+}
+#inline-content .add-resume .button{
+    width: 84px;
+    height: 22px;
+    text-align: center;
+    color: #000;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 13px 0 0;
+    cursor: pointer;
+}
+#inline-content .add-resume .button span{
+    text-decoration: underline;
+    display: block;
+    cursor: pointer;
+}
+#inline-content .add-resume .button span:hover{text-decoration: none;}
+#inline-content .add-resume .button input[type="file"] {
+    opacity:0;
+    filter:alpha(opacity:0);
+    font-size:199px;
+    cursor:pointer;
+    padding:0px;
+    margin: -100px 0 0 -100px;
+    border:none;
+    direction: rtl;
+}
+#inline-content .add-resume .name{
+    max-width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    margin: 0 5px 0 0;
+    color: #707070;
+}
+#inline-content .add-resume.uploaded .remove{display: inline-block;}
+#inline-content .add-resume .remove{
+    display: none;
+    vertical-align: top;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAYAAABGbhwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEZFOTZCQkIzQ0I0MTFFM0E4MjZDNjE2NkRFNUU5QUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEZFOTZCQkMzQ0I0MTFFM0E4MjZDNjE2NkRFNUU5QUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRkU5NkJCOTNDQjQxMUUzQTgyNkM2MTY2REU1RTlBQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRkU5NkJCQTNDQjQxMUUzQTgyNkM2MTY2REU1RTlBQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmpRX8oAAAB7SURBVHjaYvr//z/DfwYGYyAWBLORMUiMgaEcRIM4oUAMFGY4g6IYougMTA4k0AHlIBSjKoIqhOieiab4DLpmZPcgK/6P7hx0h79DU6gEk8fmcBwmYnE4FjeDg+cMNhPQFK9igAYoZjgiFIPcbQwTCMUaMxA5sIcAAgwA0x/bBWVcgIcAAAAASUVORK5CYII=) no-repeat;
+    width: 10px;
+    height: 11px;
+    margin: 6px 0 0;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+#inline-content .submit-holder{
+    text-align: center;
+    bottom: -19px;
+    left: 27%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    padding: 0 25px;
+}
+#inline-content .submit-holder:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#inline-content input[type="submit"]{
+    text-align: center;
+    height: 39px;
+    border: 2px solid #000;
+    color: #000000;
+    background: none;
+    min-width: 121px;
+    text-transform: uppercase;
+    font: 18px/39px 'CalibriBold', Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+#inline-content input[type="submit"]:hover{
+    color: #fff;
+    background: #000;
+}
+.form-row label span{
+    color:red;
+}
+/* popup marketing_documents */
+.form_documents p{
+    text-align: center;
+    font: 12px/15px 'CalibriRegular',Arial,Helvetica,sans-serif;
+}
+.form_documents input[type=checkbox], .form_documents input[type=email]{
+    float: left;
+    margin: 0 2% 0 0;
+}
+#inline-content .form_documents .row label{
+    float: left;
+    /*width: 130px;*/
+    max-width: 83%;
+    font: 12px/15px 'CalibriRegular',Arial,Helvetica,sans-serif;
+    position: relative;
+    padding: 0 0 0 30px;
+}
+#inline-content .form_documents .form-row{
+    padding: 0 0 20px;
+}
+.form_documents .row label:before{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    background:url(../images/pdf-icon0.png) no-repeat;
+    width: 22px;
+    height: 27px;
+}
+.form_documents .row{
+    margin: 0 0 20px;
+}
+#inline-content .form_documents .submit-holder{
+    text-align: center;
+    position: static;
+    padding: 0;
+    width: 100%;
+}
+#inline-content .form_documents .submit-holder input[type=submit]{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 20px;
+    min-width: 121px;
+    padding: 0 5px;
+}
+#inline-content .form_documents .two-columns input[type=submit]{
+    height: 33px;
+    float: right;
+}
+.form_documents .error{
+    font: 12px/15px 'CalibriRegular',Arial,Helvetica,sans-serif;
+    color:red;
+    display: none;
+}
+.form_documents .success{
+    display: none;
+}
+/* end popup marketing_documents */
+.popup_header_holder{
+    position: relative;
+    top: -22px;
+    text-align: center;
+}
+#colorbox .popup_header_holder h1, .popup_header_holder h1{
+    background: #fff;
+    padding: 0 25px;
+    display: inline-block;
+    margin: 0 0 10px;
+}
+.contact_wrapper {
+    padding: 0 0 50px;
+}
